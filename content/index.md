@@ -1,6 +1,8 @@
----
-title: Welcome to Quartz
+# Team HC 공식 블로그
+
+> "임시 페이지."
+
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> [!info] 시스템 공지
+> 상단 검색창을 활용하거나, 좌측 사이드바(Explorer)를 통해 각 프로젝트의 하위 폴더(`세계관`, `등장인물`, `시나리오`)에 접근할 수 있습니다.
