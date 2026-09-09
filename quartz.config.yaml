@@ -209,8 +209,6 @@ plugins:
         reactionsEnabled: "1"
         emitMetadata: "0"
         inputPosition: "top"
-        lightTheme: "noborder_light"
-        darkTheme: "noborder_dark"
         lang: "ko"
         loading: "lazy"
     layout:
