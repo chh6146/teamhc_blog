@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Team HC 공식 블로그
+  pageTitle: Team HC 소식
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - "**/Naver Blog Posts"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
