@@ -1,1 +1,1 @@
-# Team HC
+# [Team HC 공식 홈페이지로 이동](https://teamhc.net)
