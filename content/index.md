@@ -1,9 +1,16 @@
-# [Team HC 공식 홈페이지](https://teamhc.net)
-
-### [기존 Team HC 공식 블로그](https://blog.naver.com/team_hc)
-
-> [!abstract] **새로운 소식**
-> 게임 개발 소식과 업데이트, 공지사항 등  
-> Team HC에서 전해드리는 다양한 이야기를 만나보세요.
-
-> [!note] **새로운 소식과 개발 근황은 하단 링크에서 확인할 수 있습니다.**
+---
+title: Team HC 예정된 계획
+description: Team HC의 프로젝트 발매 일정 안내
+---
+# Team HC 예정된 계획
+## 2026년
+> [!example] 발매 예정
+> - **[표류하는 이탈자는 궤적이 없다](https://teamhc.net/games/project18)** — 프로젝트 18
+---
+## 2027년
+> [!example] 발매 예정
+> - **[우리들의 날개는 언제부턴가 부서졌다](https://teamhc.net/games/project4)** — 프로젝트 4 (에피소드 6 완결)
+> - **[상자 속에 갇힌 그녀](https://teamhc.net/games/project15)** — 프로젝트 15
+---
+> [!tip] 안내
+> 발매 일정은 사정에 따라 변경될 수 있습니다.
