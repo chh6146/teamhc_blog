@@ -1,8 +1,6 @@
 ---
 title: Team HC 예정된 계획
-description: Team HC의 프로젝트 발매 일정 안내
 ---
-# Team HC 예정된 계획
 ## 2026년
 > [!example] 발매 예정
 > - **[표류하는 이탈자는 궤적이 없다](https://teamhc.net/games/project18)** — 프로젝트 18
