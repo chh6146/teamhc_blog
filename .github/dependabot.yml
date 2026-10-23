@@ -5,10 +5,31 @@ updates:
     schedule:
       interval: "weekly"
     groups:
+<<<<<<< HEAD
+=======
+      # Separated so a risky third-party major cannot block ecosystem updates.
+      quartz-ecosystem:
+        applies-to: "version-updates"
+        patterns:
+          - "@quartz-community/*"
+          - "@quartz-themes/*"
+      # Isolated because a compiler major needs a tsconfig migration of its own.
+      typescript:
+        applies-to: "version-updates"
+        patterns:
+          - "typescript"
+>>>>>>> 97a2d05f80c4c50534959b1d0d41cc4b3895625e
       production-dependencies:
         applies-to: "version-updates"
         patterns:
           - "*"
+<<<<<<< HEAD
+=======
+        exclude-patterns:
+          - "@quartz-community/*"
+          - "@quartz-themes/*"
+          - "typescript"
+>>>>>>> 97a2d05f80c4c50534959b1d0d41cc4b3895625e
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
