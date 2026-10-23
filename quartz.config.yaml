@@ -22,25 +22,25 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f4f8f5"        # 은은한 그린톤 화이트 (배경)
-        lightgray: "#e0e9e3"    # 부드러운 경계선
-        gray: "#8b9f91"         # 텍스트 보조/아이콘
-        darkgray: "#34483c"     # 본문 텍스트
-        dark: "#17261d"         # 헤더/강조 텍스트
-        secondary: "#5f8f6d"    # 차분한 세이지 그린
-        tertiary: "#86b394"     # 부드러운 파스텔 그린
-        highlight: "rgba(95, 143, 109, 0.08)" # 은은한 영역 하이라이트
-        textHighlight: "#86b39433"            # 부드러운 텍스트 하이라이트
+        light: "#f4f8f5"
+        lightgray: "#e0e9e3"
+        gray: "#8b9f91"
+        darkgray: "#34483c"
+        dark: "#17261d"
+        secondary: "#5f8f6d"
+        tertiary: "#86b394"
+        highlight: rgba(95, 143, 109, 0.08)
+        textHighlight: "#86b39433"
       darkMode:
-        light: "#0e1a14"        # 아주 어두운 그린톤 배경
-        lightgray: "#1d2b23"    # 카드/부모 요소 배경
-        gray: "#64796b"         # 보조/비활성 요소
-        darkgray: "#c5d4c9"     # 본문 텍스트
-        dark: "#f1f7f3"         # 헤더/강조 텍스트
-        secondary: "#70a47d"    # 차분한 야간 세이지 그린
-        tertiary: "#91c39d"     # 부드러운 소프트 그린
-        highlight: "rgba(112, 164, 125, 0.12)" # 야간 영역 하이라이트
-        textHighlight: "#70a47d33"             # 야간 텍스트 하이라이트
+        light: "#0e1a14"
+        lightgray: "#1d2b23"
+        gray: "#64796b"
+        darkgray: "#c5d4c9"
+        dark: "#f1f7f3"
+        secondary: "#70a47d"
+        tertiary: "#91c39d"
+        highlight: rgba(112, 164, 125, 0.12)
+        textHighlight: "#70a47d33"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -134,8 +134,8 @@ plugins:
   - source: "@quartz-community/explorer"
     enabled: true
     options:
-      folderClickBehavior: collapse # "link" to navigate or "collapse" to toggle
-      folderDefaultState: open # "collapsed" or "open"
+      folderClickBehavior: collapse
+      folderDefaultState: open
       useSavedState: true
     layout:
       position: left
@@ -201,17 +201,17 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: "chh6146/teamhc_blog"
-        repoId: "R_kgDOUTVUnw"
-        category: "Announcements"
-        categoryId: "DIC_kwDOUTVUn84DFNlM"
-        mapping: "pathname"
+        repo: chh6146/teamhc_blog
+        repoId: R_kgDOUTVUnw
+        category: Announcements
+        categoryId: DIC_kwDOUTVUn84DFNlM
+        mapping: pathname
         strict: "1"
         reactionsEnabled: "1"
         emitMetadata: "0"
-        inputPosition: "top"
-        lang: "ko"
-        loading: "lazy"
+        inputPosition: top
+        lang: ko
+        loading: lazy
     layout:
       position: afterBody
       condition: not-index
@@ -227,7 +227,7 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: "최근 글"
+      title: 최근 글
       limit: 5
       showTags: true
       hideTagPages: true
@@ -279,6 +279,18 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+  - source: github:quartz-community/search
+    enabled: true
+    options:
+      enablePreview: true
+      fieldPriority:
+        - title
+        - content
+        - tags
+    order: 50
+    layout:
+      position: left
+      priority: 20
 layout:
   groups:
     toolbar:
